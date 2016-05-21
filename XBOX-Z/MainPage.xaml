@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="XBOX_Z.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:XBOX_Z"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+
+    <Grid Background="#FF595959">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="30,19,0,0" TextWrapping="Wrap" Text="XBOX-Z" VerticalAlignment="Top" Height="52" Width="232" FontSize="40" FontWeight="Bold" FontFamily="Eurostile LT Std 2" Foreground="#FF6D00DA"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="620" Margin="10,90,0,0" Stroke="Black" VerticalAlignment="Top" Width="1218"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="56,89,0,0" TextWrapping="Wrap" Text="Processor" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="83,139,0,0" TextWrapping="Wrap" Text="Name: " VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="83,179,0,0" TextWrapping="Wrap" Text="Code Name:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="83,254,0,0" TextWrapping="Wrap" Text="Memory:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtProceesorName" HorizontalAlignment="Left" Margin="131,132,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="268" Height="10" IsReadOnly="True" TextAlignment="Center"/>
+        <TextBox x:Name="txtProcessorCodeName" HorizontalAlignment="Left" Margin="170,173,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="268" Height="10" IsReadOnly="True" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock1_Copy13" HorizontalAlignment="Left" Margin="83,216,0,0" TextWrapping="Wrap" Text="Cores:" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCores" HorizontalAlignment="Left" Margin="131,210,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="76" Height="10" IsReadOnly="True" TextAlignment="Center"/>
+        <TextBlock x:Name="lblScreenResolution" HorizontalAlignment="Left" Margin="231,93,0,0" TextWrapping="Wrap" Text="Processor" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtMem" HorizontalAlignment="Left" Margin="147,247,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="291" Height="10" IsReadOnly="True" TextAlignment="Center"/>
+
+    </Grid>
+</Page>
